@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://git.oschina.net/chinacitytravel/smartmatrix.git
+          username: 
+          password:
+    inetutils:
+      use-only-site-local-interfaces: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:root123@localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
