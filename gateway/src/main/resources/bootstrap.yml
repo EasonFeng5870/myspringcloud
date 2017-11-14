@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: gateway
+  cloud:
+    config:
+      name: gateway
+      uri:
+    inetutils:
+      use-only-site-local-interfaces: true

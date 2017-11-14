@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
         <module name="eureka-server" />
+        <module name="gateway" />
         <module name="myspringcloud-bussiness" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-server" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="gateway" target="1.8" />
       <module name="myspringcloud" target="1.8" />
       <module name="myspringcloud-bussiness" target="1.8" />
     </bytecodeTargetLevel>

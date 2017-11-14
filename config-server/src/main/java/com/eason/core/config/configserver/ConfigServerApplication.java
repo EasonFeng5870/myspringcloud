@@ -11,6 +11,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 /**
  * config server.
  *
+ * request url :  http://localhost:8880/smartmatrix/test
+ *
  * @author feng yingsheng
  */
 @SpringBootApplication

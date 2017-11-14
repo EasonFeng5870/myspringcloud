@@ -6,8 +6,8 @@ spring:
       server:
         git:
           uri: https://git.oschina.net/chinacitytravel/smartmatrix.git
-          username: 
-          password:
+          username: fengyingsheng12345@163.com
+          password: fys372427166
     inetutils:
       use-only-site-local-interfaces: true
 
